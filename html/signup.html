@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EcoConnect – Sign Up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="nav">
+      <div class="logo">
+        <div class="logo-icon">🌱</div>
+        <span>EcoConnect</span>
+      </div>
+     <nav class="nav-center">
+    <nav class="nav-center">
+  <a href="../index.html" class="nav-link">Home</a>
+        <a href="features.html" class="nav-link">Features</a>
+        <a href="users.html" class="nav-link">Users</a>
+        <a href="demo.html" class="nav-link">Demo</a>
+        <a href="business-directory.html" class="nav-link">Businesses</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-right">
+        <a href="login.html" class="btn btn-ghost">Log in</a>
+        <a href="signup.html" class="btn btn-primary">Sign up</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <div class="section-header">
+          <h1 class="section-title">Create an account</h1>
+          <p class="section-subtitle">
+            Join EcoConnect as an individual user or an eco-friendly business.
+          </p>
+        </div>
+
+        <div class="grid-2-balanced">
+          <form class="form" action="#" method="post">
+            <div class="form-row">
+              <label for="role">Account type</label>
+              <select id="role">
+                <option>Individual user</option>
+                <option>Eco-friendly business</option>
+                <option>Community organiser</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="name">Full name / Business name</label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="form-row">
+              <label for="signup-email">Email</label>
+              <input type="email" id="signup-email" required />
+            </div>
+            <div class="form-row">
+              <label for="signup-password">Password</label>
+              <input type="password" id="signup-password" required />
+            </div>
+            <div class="form-row">
+              <button type="submit" class="btn btn-primary">Create account</button>
+            </div>
+          </form>
+
+          <div class="simple-card">
+            <h3 class="card-title">What you get</h3>
+            <ul class="segment-text">
+              <li>Personal carbon tracking dashboard.</li>
+              <li>Access to local eco businesses and rewards.</li>
+              <li>Community events and sustainability challenges.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2025 EcoConnect</span>
+      <span>Demo sign-up · No real accounts are created</span>
+    </footer>
+  </div>
+</body>
+</html>
